@@ -17,7 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from main import views
+# from main import views
+# from goods import views
 
 
 urlpatterns = [
