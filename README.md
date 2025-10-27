@@ -22,6 +22,7 @@ python -m pip install -r requirements.txt
 ```
 
 Наполнение БД (необходимо быть в виртуальном окружении):
+** Важно иметь PostgreSQL на локальной машине. Если её нет, в APParapa/settings.py необходимо указать SQLite или другую существующую БД. **
 ```
 python APParapa/manage.py migrate
 python APParapa/manage.py loaddata fixtures/goods/products.json fixtures/goods/categories.json
